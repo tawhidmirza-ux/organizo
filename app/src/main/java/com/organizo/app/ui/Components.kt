@@ -97,8 +97,8 @@ fun EmptyState(
     title: String,
     message: String,
     actionLabel: String? = null,
-    onAction: (() -> Unit)? = null,
-    modifier: Modifier = Modifier.fillMaxSize()
+    modifier: Modifier = Modifier.fillMaxSize(),
+    onAction: (() -> Unit)? = null
 ) {
     Column(
         modifier.padding(32.dp),
